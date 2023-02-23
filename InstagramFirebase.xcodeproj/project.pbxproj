@@ -14,6 +14,9 @@
 		4A81F83529A64A7F009775ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A81F83429A64A7F009775ED /* Assets.xcassets */; };
 		4A81F83829A64A7F009775ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A81F83629A64A7F009775ED /* LaunchScreen.storyboard */; };
 		4A81F84029A6506E009775ED /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4A81F83F29A6506E009775ED /* GoogleService-Info.plist */; };
+		4AF7D48829A8D7CF009FAF51 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF7D48729A8D7CF009FAF51 /* FeedViewController.swift */; };
+		4AF7D48A29A8D838009FAF51 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF7D48929A8D838009FAF51 /* UploadViewController.swift */; };
+		4AF7D48C29A8D84E009FAF51 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF7D48B29A8D84E009FAF51 /* SettingsViewController.swift */; };
 		B5F948303AA412093F291ECA /* Pods_InstagramFirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9259F2C70E3DF01609A6872A /* Pods_InstagramFirebase.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +30,9 @@
 		4A81F83729A64A7F009775ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A81F83929A64A7F009775ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A81F83F29A6506E009775ED /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4AF7D48729A8D7CF009FAF51 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		4AF7D48929A8D838009FAF51 /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		4AF7D48B29A8D84E009FAF51 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		86B27EE9ECDFABA9D703E97C /* Pods-InstagramFirebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramFirebase.release.xcconfig"; path = "Target Support Files/Pods-InstagramFirebase/Pods-InstagramFirebase.release.xcconfig"; sourceTree = "<group>"; };
 		9259F2C70E3DF01609A6872A /* Pods_InstagramFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstagramFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0DA31139B7E25616416BB15 /* Pods-InstagramFirebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramFirebase.debug.xcconfig"; path = "Target Support Files/Pods-InstagramFirebase/Pods-InstagramFirebase.debug.xcconfig"; sourceTree = "<group>"; };
@@ -73,6 +79,9 @@
 				4A81F83629A64A7F009775ED /* LaunchScreen.storyboard */,
 				4A81F83929A64A7F009775ED /* Info.plist */,
 				4A81F83F29A6506E009775ED /* GoogleService-Info.plist */,
+				4AF7D48729A8D7CF009FAF51 /* FeedViewController.swift */,
+				4AF7D48929A8D838009FAF51 /* UploadViewController.swift */,
+				4AF7D48B29A8D84E009FAF51 /* SettingsViewController.swift */,
 			);
 			path = InstagramFirebase;
 			sourceTree = "<group>";
@@ -83,7 +92,6 @@
 				F0DA31139B7E25616416BB15 /* Pods-InstagramFirebase.debug.xcconfig */,
 				86B27EE9ECDFABA9D703E97C /* Pods-InstagramFirebase.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -212,8 +220,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A81F83029A64A7D009775ED /* ViewController.swift in Sources */,
+				4AF7D48A29A8D838009FAF51 /* UploadViewController.swift in Sources */,
 				4A81F82C29A64A7D009775ED /* AppDelegate.swift in Sources */,
+				4AF7D48829A8D7CF009FAF51 /* FeedViewController.swift in Sources */,
 				4A81F82E29A64A7D009775ED /* SceneDelegate.swift in Sources */,
+				4AF7D48C29A8D84E009FAF51 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,6 +380,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -398,6 +410,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

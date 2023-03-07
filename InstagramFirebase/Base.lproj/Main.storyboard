@@ -76,16 +76,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="square.and.arrow.up" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="YSI-AZ-92h">
-                                <rect key="frame" x="52" y="133" width="302" height="268"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="selectimages" translatesAutoresizingMaskIntoConstraints="NO" id="YSI-AZ-92h">
+                                <rect key="frame" x="52" y="133.99999999999997" width="302" height="267.33333333333326"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ran-Ye-huO">
-                                <rect key="frame" x="166" y="542" width="61" height="35"/>
+                                <rect key="frame" x="157.33333333333334" y="542" width="78.666666666666657" height="35"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="26w-L4-Jv5"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Save"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Upload"/>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GfU-Qd-Ik2">
                                 <rect key="frame" x="52" y="435" width="300" height="34"/>
@@ -147,7 +147,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fEF-cK-X0q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1875.5725190839694" y="913.38028169014092"/>
+            <point key="canvasLocation" x="1876" y="915"/>
         </scene>
         <!--Feed-->
         <scene sceneID="ifV-4B-1Vz">
@@ -163,7 +163,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BDa-VI-Qkk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1877" y="-347"/>
+            <point key="canvasLocation" x="1876" y="-368"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="xvM-f8-YCp">
@@ -189,7 +189,7 @@
     <resources>
         <image name="f.square" catalog="system" width="128" height="114"/>
         <image name="gear.circle" catalog="system" width="128" height="123"/>
-        <image name="square.and.arrow.up" catalog="system" width="115" height="128"/>
+        <image name="selectimages" width="355" height="354"/>
         <image name="u.square" catalog="system" width="128" height="114"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

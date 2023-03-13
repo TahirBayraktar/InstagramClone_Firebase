@@ -14,6 +14,7 @@
 		4A81F83529A64A7F009775ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A81F83429A64A7F009775ED /* Assets.xcassets */; };
 		4A81F83829A64A7F009775ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A81F83629A64A7F009775ED /* LaunchScreen.storyboard */; };
 		4AF01DCB29B75D1700980399 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4AF01DCA29B75D1700980399 /* GoogleService-Info.plist */; };
+		4AF01DCD29B7738D00980399 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF01DCC29B7738D00980399 /* FeedCell.swift */; };
 		4AF7D48829A8D7CF009FAF51 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF7D48729A8D7CF009FAF51 /* FeedViewController.swift */; };
 		4AF7D48A29A8D838009FAF51 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF7D48929A8D838009FAF51 /* UploadViewController.swift */; };
 		4AF7D48C29A8D84E009FAF51 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF7D48B29A8D84E009FAF51 /* SettingsViewController.swift */; };
@@ -30,6 +31,7 @@
 		4A81F83729A64A7F009775ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4AF01DC629B6257100980399 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4AF01DCA29B75D1700980399 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4AF01DCC29B7738D00980399 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		4AF7D48729A8D7CF009FAF51 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		4AF7D48929A8D838009FAF51 /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
 		4AF7D48B29A8D84E009FAF51 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				4AF7D48729A8D7CF009FAF51 /* FeedViewController.swift */,
 				4AF7D48929A8D838009FAF51 /* UploadViewController.swift */,
 				4AF7D48B29A8D84E009FAF51 /* SettingsViewController.swift */,
+				4AF01DCC29B7738D00980399 /* FeedCell.swift */,
 			);
 			path = InstagramFirebase;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AF01DCD29B7738D00980399 /* FeedCell.swift in Sources */,
 				4A81F83029A64A7D009775ED /* ViewController.swift in Sources */,
 				4AF7D48A29A8D838009FAF51 /* UploadViewController.swift in Sources */,
 				4A81F82C29A64A7D009775ED /* AppDelegate.swift in Sources */,

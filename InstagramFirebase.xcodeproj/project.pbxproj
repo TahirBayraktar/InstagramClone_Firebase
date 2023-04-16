@@ -18,7 +18,7 @@
 		4AF7D48829A8D7CF009FAF51 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF7D48729A8D7CF009FAF51 /* FeedViewController.swift */; };
 		4AF7D48A29A8D838009FAF51 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF7D48929A8D838009FAF51 /* UploadViewController.swift */; };
 		4AF7D48C29A8D84E009FAF51 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF7D48B29A8D84E009FAF51 /* SettingsViewController.swift */; };
-		B5F948303AA412093F291ECA /* Pods_InstagramFirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9259F2C70E3DF01609A6872A /* Pods_InstagramFirebase.framework */; };
+		5EEDFFF1FC05295CAB75B6D6 /* Pods_InstagramFirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9259F2C70E3DF01609A6872A /* Pods_InstagramFirebase.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +29,7 @@
 		4A81F83229A64A7D009775ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4A81F83429A64A7F009775ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A81F83729A64A7F009775ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4A906DC729D5C3C6004EA630 /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AF01DC629B6257100980399 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4AF01DCA29B75D1700980399 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4AF01DCC29B7738D00980399 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
@@ -45,7 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5F948303AA412093F291ECA /* Pods_InstagramFirebase.framework in Frameworks */,
+				5EEDFFF1FC05295CAB75B6D6 /* Pods_InstagramFirebase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +102,7 @@
 		A749C08D59F43829A2623292 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4A906DC729D5C3C6004EA630 /* SDWebImage.framework */,
 				9259F2C70E3DF01609A6872A /* Pods_InstagramFirebase.framework */,
 			);
 			name = Frameworks;
